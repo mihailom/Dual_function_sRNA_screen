@@ -1,0 +1,4 @@
+# Dual_function_sRNA_screen
+
+This repo is meant for compiling likely small proteins (based on translation initiation rate cutoffs) encoded within regulatory RNA sequences (eg bacterial sRNAs). These 2 functions are used in tandem to extract RNA sequences of interest from a genome file given coordinates, orientation (get_sequences.py); 
+these sequences can then be passed to the Salis Lab RBS calculator to create matrix of quantitative Translation Initiation Rate (TIR) for every represented nucleotide position for which there was an RBS for each sRNA under investigation (rows) in Excel (direct output of RBS Calculator) to be passed to DF_sRNA_candidate_screen.py
