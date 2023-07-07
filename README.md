@@ -4,4 +4,4 @@ This repo is meant for compiling likely small proteins (based on translation ini
 These 2 functions are used in tandem to: 
 1. extract RNA sequences of interest from a genome file given coordinates, orientation (get_sequences.py); 
 2. these sequences can then be passed to the Salis Lab RBS calculator to create matrix of quantitative Translation Initiation Rate (TIR) for every represented nucleotide position for which there was an RBS for each sRNA under investigation (rows) in Excel (direct output of RBS Calculator)
-3. to be passed to {https://github.com/mihailom/Dual_function_sRNA_screen/blob/main/DF_sRNA_candidate_screen.py}[DF_sRNA_candidate_screen.py]
+3. to be passed to [DF_sRNA_candidate_screen.py](https://github.com/mihailom/Dual_function_sRNA_screen/blob/main/DF_sRNA_candidate_screen.py)
