@@ -1,4 +1,5 @@
-# Dual_function_sRNA_screen
+# Compile candidate dual-function sRNAs
+## Dual_function_sRNA_screen
 
 This repo is meant for compiling likely small proteins (based on translation initiation rate cutoffs) encoded within regulatory RNA sequences (eg bacterial sRNAs) that may indicate dual-functionality of sRNAs. 
 These 2 functions should be used in tandem as such: 
